@@ -12,3 +12,11 @@ development:
   pool: 5
   username: enbake
   password: admin
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: test_proj_aj_enbake
+  pool: 5
+  username: enbake
+  password: admin
